@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+  <div class="jumbotron">
+    <h1>Welcome to IQ App</h1>
+    <p>Enter a list of numbers following some patterns, where the last one is assumed to
+		   be the result of some operation of the other ones. Make sure to use a space
+		   character between each number, and each sample is on its own line</p>
+		<p>The meta algorithm will present an algorithm finding the solution for
+		   for the given test data.</p>
+		<form action="/submit" method="POST">
+		  <input id="problem" name="problem" placeholder="some cool numbers" type="text" />
+		  <input type="submit" value="Find Solution" />
+		</form>
+  </div>
+<!--
+  <div class="row">
+    <div class="span12">
+    {{docs|markdown}}
+    </div>
+  </div>
+-->
+{% endblock %}
