@@ -1,6 +1,4 @@
-# {{name}}
-
-FIXME
+# Algo Abducter
 
 ## Prerequisites
 
@@ -8,7 +6,7 @@ You will need [Leiningen][1] 2.0 or above installed.
 
 [1]: https://github.com/technomancy/leiningen
 
-## Running
+## Running Server
 
 To start a web server for the application, run:
 
